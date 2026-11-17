@@ -1,7 +1,7 @@
 # KonstanzGo Live:  docker build -t konstanzgo-live .
 
 # --- Build ---
-FROM swift:6.2-noble AS build
+FROM swift:6.4-noble AS build
 RUN apt-get update \
     && apt-get install -y --no-install-recommends libsqlite3-dev zlib1g-dev \
     && rm -rf /var/lib/apt/lists/*
