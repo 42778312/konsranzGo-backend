@@ -1,0 +1,15 @@
+.DS_Store
+.build/
+.swiftpm/
+*.xcodeproj/
+xcuserdata/
+DerivedData/
+__pycache__/
+*.pyc
+
+# Secrets: the real .env lives only on the server.
+.env
+deploy/.env
+
+# Load test output.
+loadtest/results/

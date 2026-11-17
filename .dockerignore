@@ -1,0 +1,11 @@
+# Only what the image needs.
+*
+!Package.swift
+!Package.resolved
+!Sources/
+!Tests/
+!KGLiveAPI/
+!data/timetable.db
+**/.build/
+**/.swiftpm/
+**/.DS_Store
