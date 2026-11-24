@@ -10,7 +10,7 @@ let package = Package(
     platforms: [.macOS(.v15)],
     dependencies: [
         .package(path: "KGLiveAPI"),
-        .package(url: "https://github.com/vapor/vapor.git", exact: "4.122.3"),
+        .package(url: "https://github.com/vapor/vapor.git", exact: "4.122.4"),
         .package(url: "https://github.com/swift-server/async-http-client.git", exact: "1.37.0"),
         .package(url: "https://github.com/apple/swift-log.git", exact: "1.17.0"),
         .package(url: "https://github.com/apple/swift-crypto.git", exact: "3.15.1"),
