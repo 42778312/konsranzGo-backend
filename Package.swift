@@ -13,7 +13,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/vapor.git", exact: "4.122.3"),
         .package(url: "https://github.com/swift-server/async-http-client.git", exact: "1.37.0"),
         .package(url: "https://github.com/apple/swift-log.git", exact: "1.17.0"),
-        .package(url: "https://github.com/apple/swift-crypto.git", exact: "3.15.1"),
+        .package(url: "https://github.com/apple/swift-crypto.git", exact: "5.1.2"),
     ],
     targets: [
         .systemLibrary(name: "CSQLite", path: "Sources/CSQLite", providers: [.apt(["libsqlite3-dev"])]),
